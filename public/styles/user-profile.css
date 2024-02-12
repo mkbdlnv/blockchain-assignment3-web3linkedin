@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/user-profile-background.jpg');
+    background-size: cover;
+}
+
+#profile {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 50%;
+    height: 100%;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный фон, более темный цвет */
+}
+
+#avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+#address {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#tokens {
+    margin-bottom: 20px;
+}
+
+#tokens ul {
+    list-style-type: none;
+}
+
+#tokens li {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+#addFriendButton {
+    width: 200px;
+    height: 40px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: black;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+#connectRequests {
+    margin-top: 20px;
+}
+
+#connectRequests div {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#connectWalletButton {
+    width: 150px;
+    height: 40px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: black;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
